@@ -15,9 +15,8 @@ header {
   height: 20rem;
 }
 
-
-
 .brand {
+  position: absolute;
   clear: none;
 	margin: 0;
 	width: 100%;
@@ -27,10 +26,10 @@ header {
 
 .logoInsta {
   position: absolute;
-  padding-left: 777px;
-  padding-top: 162px;
-  width: 444px;
-  height: 117px;
+  padding-left: 638px;
+  padding-top: 191px;
+  width: 285px;
+  height: 72px;
 }
 
 .login {
@@ -40,23 +39,21 @@ header {
   background-color: #1c5380;
   color: white;
   position: absolute;
-  top: 193px;
-  right: 382px;
+  top: 207px;
+  right: 628px;
   font-weight: bold;
   padding: 8px 14px;
   border: 1px solid #06365f;
   border-radius: 4px;
 }
 
-.loginbutton {
+.login img {
   width: 30px;
   vertical-align: middle;
   padding-right: 15px;
 }
 
-.brand {
-  position: absolute;
-}
+
 
 main {
   display: inline-flex;
@@ -69,14 +66,7 @@ main {
   top: -11em;
   }
 
-  .backgroundImage {
-    position: absolute;
-    width: 630px;
-    padding-top: 165px;
-    padding-left: 540px;
-  }
-  
-  .mainTextImage  {
+  .mainImage  {
     color: #06365f;
     font-style: bold;
     position: absolute;
@@ -84,61 +74,68 @@ main {
     top: 190px;
   }
 
-.subtitle {
+
+.alotoftext {
+  background: url("../images/frame.png") no-repeat;
+  padding: 29px;
   color: #06365f;
+	/*font-style: bold; */
+	position: absolute;
+	left: 590px;
+  top: 272px;
+  margin-left: 50px;
 }
 
-#subtitle {
-  display:flex;
-  flex-wrap: wrap;
+.alotoftext h1 {
+  color: #06365f;
+  font-size: 27px;
+  margin-top: 0;
+  line-height: 1.3;
 }
 
-.bold {
-  font-weight: bold;
+.text {
+  width: 550px;	
+	font-size: 16px;
+	position: absolute;	
+	top: 107px;
 }
 
-#description {
-  display: flex;
-  flex-wrap: wrap;
-  width: 46rem
+.icons{ 
+  position: inline;
+	left: 590px;
+	bottom: 70px;
 }
 
-#apple {
-  width: 38rem;
-  position: relative;
+.icons img {
+  
+  width: 200px;
+	height: 60px;
+  padding-right: 40px;
+  margin-top: 250px;
 }
 
-#google {
-  width: 38rem;
-  position: relative;
-  margin-right: 70%;
-}
 
-#icons {
-  display: flex;
-  position: relative;
-  top: 1em;
-}
 
-.bottom-line {
+footer ul {
   color: #1c5380;
   list-style-type:none; /* to remove the index */
   display: inline-flex; /* to have items in line */
+  margin-left: 390px;
 }
 
-.bottom-line-space {
-  display: flex;
-  align-items: center;
+ul li {
+  display: inline;
+  text-align: center;
   justify-content: space-between;
   width: 100%;
   max-width: 900px;
   margin: 30px auto;
-  text-transform: uppercase;
+  text-transform: uppercase; 
   font-size: 12px;
   font-weight: 600;
   margin-right: 10px;
   padding: 0;
-}
+} 
 
 
 .copyright {
